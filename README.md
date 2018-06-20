@@ -30,9 +30,8 @@ Railsの解説が非常にわかりやすく書かれている初心者にもオ
 カテゴリーごとの検索機能などを実装するにあたって参考にさせて頂きました。
 誠にありがとうございます。
 
-[[Ruby] Line NotifyでLineにメッセージ送信する手順メモ](https://qiita.com/meguroman/items/38bda8c539ede8f9a02a)
-
-Foods CheckerにLINEでの通知機能を追加する際に参考にさせていただきました。
+[【Rails4, OmniAuth】世界一丁寧なLINE LOGIN導入講座](https://qiita.com/YuitoSato/items/a9e613370f418d5c322c)
+LINEでのログイン機能を実装するにあたって参考にさせて頂きました。
 誠にありがとうございます。
 
 # 開発環境
