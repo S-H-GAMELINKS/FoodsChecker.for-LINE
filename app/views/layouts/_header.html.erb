@@ -21,7 +21,7 @@
           <li><%= link_to "ソースコード", "https://github.com/S-H-GAMELINKS/FoodsChecker" %></li>
           <li><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></li>
         <% else %>
-          <li><%= link_to "ログイン", new_user_session_path %></li>
+          <li><%= link_to "ログイン", user_line_omniauth_authorize_path %></li>
         <% end %>
         </ul>
       </div>
