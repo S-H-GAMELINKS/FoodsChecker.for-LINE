@@ -16,7 +16,7 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
           @profile.user = current_user || User.create!(email: email, name: @omniauth['info']['name'], password: Devise.friendly_token[0, 20])
           @profile.set_values(@omniauth)
           sign_in(:user, @profile.user)
-          redirect_to edit_user_path(@profile.user.id) and return
+          #redirect_to edit_user_path(@profile.user.id) and return
         end
       end
       redirect_to root_path
