@@ -1,4 +1,5 @@
 class SocialProfile < ApplicationRecord
+  attr_accessor :access_token, :access_secret, :credentials, :name
   belongs_to :user
 
   def set_values(omniauth)
