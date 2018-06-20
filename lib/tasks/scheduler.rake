@@ -10,7 +10,7 @@ task :expired => :environment do
 require 'uri'
 
     class Line
-        TOKEN = ENV["LINE_ID"]
+        TOKEN = ENV["LINE_BOT_ACCESS_TOKEN"]
         URI = URI.parse("https://notify-api.line.me/api/notify")
 
         def make_request(msg)
