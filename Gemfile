@@ -41,6 +41,9 @@ gem 'jquery-rails'
 
 gem 'devise'
 
+# LINE login gem
+gem 'omniauth-line'
+
 # For PWA
 gem "serviceworker-rails"
 
