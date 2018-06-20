@@ -1,5 +1,5 @@
 class SocialProfile < ApplicationRecord
-  belongs_to :user
+  belongs_to :user, foreign_key: 'name'
 
   def set_values(omniauth)
     return if provider.to_s != omniauth['provider'].to_s || uid != omniauth['uid']
