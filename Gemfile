@@ -44,6 +44,9 @@ gem 'devise'
 # LINE login gem
 gem 'omniauth-line'
 
+# Using Faker
+gem 'faker'
+
 # For PWA
 gem "serviceworker-rails"
 
